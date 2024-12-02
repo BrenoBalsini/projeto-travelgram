@@ -3,6 +3,8 @@ main{
   padding: 24px 32px;
   flex-wrap: wrap;
   gap: 24px;
+  margin: auto;
+  max-width: 1280px;
 }
 
 main img{

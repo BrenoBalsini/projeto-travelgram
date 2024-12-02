@@ -4,13 +4,16 @@ nav{
   align-items: center;
   line-height: 0;
   padding: 20px 32px;
+  max-width: 1280px;
+  margin: auto;
 }
 
 nav ul{
   display: flex;
   list-style: none;
   align-items: center;
-  gap: 16px;
+  gap: 24px;
+  font: var(--text);
 }
 
 nav ul li:last-child img{

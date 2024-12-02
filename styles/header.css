@@ -2,6 +2,8 @@ header{
   display: flex;
   padding: 32px;
   justify-content: space-between;
+  max-width: 1280px;
+  margin: auto;
 }
 
 header > div{
@@ -26,12 +28,12 @@ header > div img{
 
 #profile h1{
   font: var(--text-lg);
-  color: var(--text-color-secondary);
+  color: var(--text-color-primary);
 }
 
 #profile p{
   font: var(--text-md);
-  color: var(-color-secondary);
+  color: var(--text-color-secundary);
 }
 header ul{
   display: flex;
